@@ -11,7 +11,7 @@ axios.interceptors.request.use(config => {
     console.log('======请求拦截器begin========')
     console.log(config)
     console.log('======请求拦截器end========')
-  return config
+  return config;
 })
 
 // 接收到响应后，需先执行该处代码，然后继续执行then方法
